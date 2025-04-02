@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin:0;
+    background-image: url('zdjecia/tlo.png');
+
+}
+
+header, footer {
+    background: #252323 ;
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+section, article, aside{
+    background-color: rgba(112, 121, 140, 0.8);
+    color: white;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #252323;
+}
